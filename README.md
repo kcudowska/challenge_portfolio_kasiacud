@@ -15,17 +15,11 @@ Kasia C.
 Na czym polega ta aplikacja? Do czego służy?
 
 Aplikacja jest bazą zawodników piłki nożnej. Zawiera podstawowe dane o zawodnikach:
-
 *imię i nazwisko,
-
 *wiek,
-
 *wagę i wzrost,
-
 *klub, w którym grają,
-
 *pozycję,
-
 *osiągnięcia, 
 
 Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)
