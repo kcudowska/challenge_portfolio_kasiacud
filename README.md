@@ -31,11 +31,15 @@ Zawiera też informacje o meczach, które rozegrała drużyna danego zawodnika o
 
 W aplikacji można dodawać i edytować zawodników, mecze, w których brali udział oraz tworzyć raporty z gry zawodników.
 
+Braki w aplikacji zostały opisane w pkt 4.
+
 *3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?*
 
-Wizualnie aplikacja jest niezbyt atrakcyjna. Najbardziej w oczy rzuca się ilość aktywności na stronie, a najważniejsza powinna być opcja wyboru zawodników.
+Wizualnie aplikacja jest niezbyt atrakcyjna. Najbardziej w oczy rzuca się ilość aktywności na stronie, a najważniejsza powinna być opcja wyboru i analizy zawodników.
 
 *4. Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).*
+
+Aplikacja nie jest intuicyjna - użytkownik nie od razu wie, jak poruszać się po stronie.
 
 * Brak opcji otworzenia danego meczu - można jedynie edytować, dodać raport lub rozpocząć mecz. Brak możliwości podglądu samego opisu.
 * Brak opcji otworzenia raportu danego meczu - można jedynie edytować. Brak możliwości podglądu samego opisu.
@@ -57,7 +61,3 @@ Wizualnie aplikacja jest niezbyt atrakcyjna. Najbardziej w oczy rzuca się iloś
   - data urodzenia może przyjąć wartość z przyszłości (np. 10.05.2024r.) lub z przeszłości (np. 04.03.0456r.).
 
 *  Przy dodawaniu nowego meczu data może przyjąć wartość z przyszłości (np. 10.05.2024r.) lub z przeszłości (np. 04.03.0456r.).
-
-*  Przy edycji meczu pojawia się panel "Lista zdarzeń", którego nie da się edytować, nic dodać ani zmienić - nie wiadomo, skąd się pojawił i w jakim celu.
-    
-*  Przy tworzeniu raportu z meczu
