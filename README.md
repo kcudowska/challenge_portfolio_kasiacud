@@ -29,7 +29,7 @@ Zawiera też informacje o meczach, które rozegrała drużyna danego zawodnika o
   
 *2. Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)*
 
-W aplikacji można dodawać i edytować zawodników, mecze, w których brali udział oraz tworzyć raporty z gry zawodników.
+W aplikacji można dodawać i edytować zawodników (ich wszystkie dane), mecze, w których brali udział oraz tworzyć raporty z gry zawodników.
 
 Braki w aplikacji zostały opisane w pkt 4.
 
