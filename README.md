@@ -102,4 +102,4 @@ Aplikacja nie jest intuicyjna - użytkownik nie od razu wie, jak poruszać się 
 
 ## Subtask 4
 
-
+(https://docs.google.com/spreadsheets/d/1fKsExB1JN0xOA5J-rsSbACMPkPPkIRQKgkkNqhoOWZo/edit?usp=drive_link)
