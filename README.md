@@ -65,6 +65,16 @@ Aplikacja nie jest intuicyjna - użytkownik nie od razu wie, jak poruszać się 
 
 # TASK 2
 
+## Subtask 1
+
+[](https://docs.google.com/spreadsheets/d/1B7kk-O8inJEUrqCPRuR1jUkTp1daJqMGQ3Ulpmgh8sE/edit?usp=drive_link)
+
+## Subtask 2
+
+[](https://docs.google.com/spreadsheets/d/1AyuWO15XJ5-sRaSCUEVdqrCUYvX7NsrFvw1s5fFfx4Y/edit?usp=drive_link)
+
+## Subtask 3
+
 **Dlaczego piszemy przypadki testowe? Na co to komu potrzebne?**
 
 *Powody, dla których piszemy przypadki testowe:*
@@ -85,3 +95,7 @@ Aplikacja nie jest intuicyjna - użytkownik nie od razu wie, jak poruszać się 
 ![](https://s3.memeshappen.com/memes/Enough-Test-cases--meme-40783.jpg)
 
 ``Przypadków testowych nigdy za wiele! 🙃``
+
+## Subtask 4
+
+[]()
