@@ -67,11 +67,15 @@ Aplikacja nie jest intuicyjna - użytkownik nie od razu wie, jak poruszać się 
 
 ## Subtask 1
 
-https://docs.google.com/spreadsheets/d/1B7kk-O8inJEUrqCPRuR1jUkTp1daJqMGQ3Ulpmgh8sE/edit?usp=drive_link
+*Test case'y na podstawie User Story*
+
+(https://docs.google.com/spreadsheets/d/1B7kk-O8inJEUrqCPRuR1jUkTp1daJqMGQ3Ulpmgh8sE/edit?usp=drive_link)
 
 ## Subtask 2
 
-https://docs.google.com/spreadsheets/d/1AyuWO15XJ5-sRaSCUEVdqrCUYvX7NsrFvw1s5fFfx4Y/edit?usp=drive_link
+*Test case'y na podstawie 'własnych doświadczeń'*
+
+(https://docs.google.com/spreadsheets/d/1AyuWO15XJ5-sRaSCUEVdqrCUYvX7NsrFvw1s5fFfx4Y/edit?usp=drive_link)
 
 ## Subtask 3
 
