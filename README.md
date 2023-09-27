@@ -103,3 +103,15 @@ Aplikacja nie jest intuicyjna - użytkownik nie od razu wie, jak poruszać się 
 ## Subtask 4
 
 (https://docs.google.com/spreadsheets/d/1fKsExB1JN0xOA5J-rsSbACMPkPPkIRQKgkkNqhoOWZo/edit?usp=drive_link)
+
+# TASK 3
+
+## Subtask 2
+
+(https://docs.google.com/spreadsheets/d/10iP43uqRoXfOwtstGQY3ZtxatFDVwMiEnTdiil3NiCs/edit?usp=drive_link) Bug Reports
+
+(https://docs.google.com/spreadsheets/d/1B7kk-O8inJEUrqCPRuR1jUkTp1daJqMGQ3Ulpmgh8sE/edit?usp=drive_link) (https://docs.google.com/spreadsheets/d/1AyuWO15XJ5-sRaSCUEVdqrCUYvX7NsrFvw1s5fFfx4Y/edit?usp=drive_link) Test Cases
+
+## Subtask 3
+
+(https://docs.google.com/document/d/1A4yPrUyml_yiPy2-cNqiKJsCmgdVtwk1jws3W3lLQew/edit?usp=drive_link) Test Report
