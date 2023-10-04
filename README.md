@@ -115,3 +115,55 @@ Aplikacja nie jest intuicyjna - użytkownik nie od razu wie, jak poruszać się 
 ## Subtask 3
 
 (https://docs.google.com/document/d/1A4yPrUyml_yiPy2-cNqiKJsCmgdVtwk1jws3W3lLQew/edit?usp=drive_link) Test Report
+
+# Task 4
+
+## Subtask 2
+
+(https://docs.google.com/spreadsheets/d/1bvN8jqruOQ0ar1IL1bUZ7UBPO8CWxniqHKs6UxOPD6I/edit?usp=drive_link) Bug Reports OLX app
+
+## Subtask 3
+
+``1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?``
+
+Aplikacja OLX jest takim *internetowym bazarkiem*. Sprzedający mają swoje *stoiska*, a kupujący mogą sobie *spacerować alejkami* i wybierać, co im się podoba. Jej celem jest połączyć sprzedających z kupującymi. Użytkownik może być sprzedającym i kupującym. Jako sprzedający może zamieścić ogłoszenie o chęci sprzedaży produktu, w którym ma możliwość:
+
++ dodać opis,:memo:
++ dodać zdjęcia, :camera:
++ określić cenę, :heavy_dollar_sign:
++ określić sposób przekazania produktu po kupnie, np. odbiór osobisty, wysyłka i jej koszt. :package:
+
+Jako kupujący może przeglądać i wybierać spośród niezliczonej liczby ogłoszeń oraz kupować produkty w nich zamieszczone. :heavy_dollar_sign:
+
+Aplikacja pozwala na szybkie sprzedawanie i kupowanie produktów nowych i używanych, przekazywania przedmiotów, które nie są już potrzebne, dla kolejnych użytkowników. Aplikacja ułatwia recykling przedmiotów, dawanie im nowego życia poprzez przekazanie osobom, które widzą w nich wartość.
+
+Aplikacja jest przeznaczona do użytku na terenie Polski.
+
+``2. Kto ma być użytkownikiem końcowym aplikacji?``
+
+Użytkownikiem końcowym może być każdy, kto:
+
+- posiada aktywny adres e-mail,
+- posiada urządzenie, na którym może zainstalować aplikację,
+- posiada produkty, które chce sprzedać/oddać,
+- jest osobą poszukującą produktu w celu kupna,
+- z uwagi na konieczność zawarcia umowy kupujący-sprzedający, powinna być pełnoletnia i mieć pełne prawa w tym zakresie.
+
+``3. Czy według Ciebie aplikacja jest user friendly? (Przyjazna dla użytkownika- np. wchodzisz do aplikacji i szybko łapiesz do czego służą przyciski. Poczytaj na ten temat w internecie- co to znaczy, że aplikacja jest przyjazna dla użytkownika)``
+
+W mojej ocenie aplikcja jest user-friendly. Nowy użytkownik może łatwo się po niej poruszać. Już na pierwszej stronie jest pole do wpisywania poszukiwanych produktów oraz wybór kategorii. Wszystko jest jasno opisane. Aplikacja jest dostępna **tylko w polskiej wersji językowej**, ponieważ jest wykorzystywana jedynie na terenie Polski. Może to być problem przy korzystaniu z niej przez osoby z zagranicy (mające problem z rozumieniem języka polskiego) zamieszkujące na terytorium Polski.
+
+``4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? (Żeby nie było: nie jest to aplikacja przy której pracuję, takie pytania pojawiają się na rozmowach rekrutacyjnych dlatego dobrze jest to przećwiczyć :D )``
+
+Aplikacja w swoim podstawowym założeniu działa bardzo dobrze.
+
+Dodatkową funkcjonalnością mogłaby być opcja dodawania komemntarzy i zdjęć do produktów przez potencjalnych kupujących. *Nie wszyscy sprzedający uczciwie opisują sprzedawane produkty. Czasem kupujący pokonują daleką drogę w celu kupna produktu, który okazuje się niezgodny z opisem. W takich sytuacjach brak jest możliwości ostrzeżenia kolejnych potencjalnych kupujących i wyrażenia opinii.*
+
+``5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?``
+
+| Aplikacja internetowa | Aplikacja natywna |
+| --- | --- |
+| potrzebna przeglądarka | konieczność pobrania aplikacji na urządzenie własne |
+| wymaga dostępu do internetu | nie wymaga dostępu do internetu *poza wybranymi funkcjami, np. helpdesk* |
+| napisana raz działa na wszstkich przeglądarkach | napisana dla konkretnego systemu operacyjnego |
+| łatwiej wprowadzać zmiany | wymagane są ciągłe aktualizacje |
