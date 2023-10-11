@@ -200,6 +200,11 @@ Dodatkową funkcjonalnością mogłaby być opcja dodawania komemntarzy i zdję�
 
 
 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+
+select * from actors order by surname ASC
+
+![1](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/81298d61-d100-4043-a1c7-c6bfa1872f25)
+
 2. Wyświetl film, który powstał w 2019 roku.
 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
