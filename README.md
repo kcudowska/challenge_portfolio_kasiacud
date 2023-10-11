@@ -173,6 +173,15 @@ Dodatkową funkcjonalnością mogłaby być opcja dodawania komemntarzy i zdję�
 
 ## Subtask 1
 
+| Aplikacja internetowa | Aplikacja natywna |
+| --- | --- |
+| potrzebna przeglądarka | konieczność pobrania aplikacji na urządzenie własne |
+| wymaga dostępu do internetu | nie wymaga dostępu do internetu *poza wybranymi funkcjami, np. helpdesk* |
+| napisana raz działa na wszstkich przeglądarkach | napisana dla konkretnego systemu operacyjnego |
+| łatwiej wprowadzać zmiany | wymagane są ciągłe aktualizacje |
+
 NULL to nie 0, to brak wartości.
 
-![]([https://s3.memeshappen.com/memes/Enough-Test-cases--meme-40783.jpg](https://external-preview.redd.it/BCPlM91rROXWlsSu7TXoH50pazxv9xzFG-wWjg8f3VE.jpg?auto=webp&s=ba94a44004fede33fcb0494b00622d7aaaaff704)https://external-preview.redd.it/BCPlM91rROXWlsSu7TXoH50pazxv9xzFG-wWjg8f3VE.jpg?auto=webp&s=ba94a44004fede33fcb0494b00622d7aaaaff704)
+![](https://www.reddit.com/media?url=https%3A%2F%2Fexternal-preview.redd.it%2FBCPlM91rROXWlsSu7TXoH50pazxv9xzFG-wWjg8f3VE.jpg%3Fauto%3Dwebp%26s%3Dba94a44004fede33fcb0494b00622d7aaaaff704&rdt=42666)
+
+
