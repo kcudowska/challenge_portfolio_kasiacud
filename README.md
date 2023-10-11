@@ -182,6 +182,8 @@ Dodatkową funkcjonalnością mogłaby być opcja dodawania komemntarzy i zdję�
 
 NULL to nie 0, to brak wartości.
 
-![](https://www.reddit.com/media?url=https%3A%2F%2Fexternal-preview.redd.it%2FBCPlM91rROXWlsSu7TXoH50pazxv9xzFG-wWjg8f3VE.jpg%3Fauto%3Dwebp%26s%3Dba94a44004fede33fcb0494b00622d7aaaaff704&rdt=42666)
+![](https://files.codingninjas.in/article_images/null-values-1-1638899345.webp)
+
+
 
 
