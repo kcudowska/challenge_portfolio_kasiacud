@@ -173,8 +173,8 @@ Dodatkową funkcjonalnością mogłaby być opcja dodawania komemntarzy i zdję�
 
 ## Subtask 1
 
-| **ZAPYTANIA/OPERATORY SQL** ||
-| --- ||
+| **ZAPYTANIA/OPERATORY SQL** | Opis |
+| --- | --- |
 | SELECT (..) FROM | wybierz (..) z |
 | ORDER BY | sortowanie |
 | WHERE | określenie warunku wyboru |
