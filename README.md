@@ -224,8 +224,39 @@ select title, price from movies where price <7
 ![4](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/da08e9d9-681b-4d68-95eb-69e434540149)
 
 *5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
+
+select * from actors where actor_id >=4 and actor_id <=7
+
+![5](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/1f5e5267-7400-4982-9633-3f89f0fbef1b)
+
 *6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.*
+
+select * from customers where customer_id = 2 or customer_id = 4 or customer_id = 6
+
+![6](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/5beab79b-2b16-485d-a26b-27fce510bfa5)
+
 *7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.*
+
+select * from customers where customer_id IN (1,3,5)
+
+![7](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/dd0e0913-e927-4bb7-902f-cf5e9d168963)
+
 *8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.*
+
+select * from actors where name like 'An%'
+
+![8](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/ce20d30c-fd0b-4edf-ae22-cfd158e69bfd)
+
 *9. Wyświetl dane klienta, który nie ma podanego adresu email.*
+
+select * from customers where email is null
+
+![9](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/df29dab7-f47b-45cd-bc7a-0af84228a8e9)
+
 *10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.*
+
+SELECT * FROM movies WHERE price >9 and movie_id between 2 and 8
+
+![10](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/86145698-584a-4fef-817a-b9ae38ba6c1a)
+
+
