@@ -199,28 +199,33 @@ Dodatkową funkcjonalnością mogłaby być opcja dodawania komemntarzy i zdję�
 ## Subtask 3
 
 
-1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+*1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.*
 
 select * from actors order by surname ASC
 
 ![1](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/81298d61-d100-4043-a1c7-c6bfa1872f25)
 
-2. Wyświetl film, który powstał w 2019 roku.
+*2. Wyświetl film, który powstał w 2019 roku.*
 
 select title from movies where year_of_production = 2019
 
 ![2](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/c22c9bb1-fac3-4ec9-bd3a-31ee8e9b1331)
 
-3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+*3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.*
 
 select * from movies where year_of_production between 1990 and 1999
 
 ![3](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/fc5d85a3-be9c-42ee-9ecf-6d8fcdf62e17)
 
-4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
-5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
-6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
-7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
-8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
-9. Wyświetl dane klienta, który nie ma podanego adresu email.
-10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+*4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$*
+
+select title, price from movies where price <7
+
+![4](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/da08e9d9-681b-4d68-95eb-69e434540149)
+
+*5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
+*6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.*
+*7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.*
+*8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.*
+*9. Wyświetl dane klienta, który nie ma podanego adresu email.*
+*10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.*
