@@ -206,6 +206,11 @@ select * from actors order by surname ASC
 ![1](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/81298d61-d100-4043-a1c7-c6bfa1872f25)
 
 2. Wyświetl film, który powstał w 2019 roku.
+
+select title from movies where year_of_production = 2019
+
+![2](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/c22c9bb1-fac3-4ec9-bd3a-31ee8e9b1331)
+
 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
 5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
