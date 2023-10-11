@@ -167,3 +167,12 @@ Dodatkową funkcjonalnością mogłaby być opcja dodawania komemntarzy i zdję�
 | wymaga dostępu do internetu | nie wymaga dostępu do internetu *poza wybranymi funkcjami, np. helpdesk* |
 | napisana raz działa na wszstkich przeglądarkach | napisana dla konkretnego systemu operacyjnego |
 | łatwiej wprowadzać zmiany | wymagane są ciągłe aktualizacje |
+
+
+# Task 5
+
+## Subtask 1
+
+NULL to nie 0, to brak wartości.
+
+![]([https://s3.memeshappen.com/memes/Enough-Test-cases--meme-40783.jpg](https://external-preview.redd.it/BCPlM91rROXWlsSu7TXoH50pazxv9xzFG-wWjg8f3VE.jpg?auto=webp&s=ba94a44004fede33fcb0494b00622d7aaaaff704)https://external-preview.redd.it/BCPlM91rROXWlsSu7TXoH50pazxv9xzFG-wWjg8f3VE.jpg?auto=webp&s=ba94a44004fede33fcb0494b00622d7aaaaff704)
