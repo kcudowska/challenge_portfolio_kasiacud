@@ -173,17 +173,39 @@ Dodatkową funkcjonalnością mogłaby być opcja dodawania komemntarzy i zdję�
 
 ## Subtask 1
 
-| Aplikacja internetowa | Aplikacja natywna |
+| **ZAPYTANIA/OPERATORY SQL** |
 | --- | --- |
-| potrzebna przeglądarka | konieczność pobrania aplikacji na urządzenie własne |
-| wymaga dostępu do internetu | nie wymaga dostępu do internetu *poza wybranymi funkcjami, np. helpdesk* |
-| napisana raz działa na wszstkich przeglądarkach | napisana dla konkretnego systemu operacyjnego |
-| łatwiej wprowadzać zmiany | wymagane są ciągłe aktualizacje |
+| SELECT (..) FROM | wybierz (..) z |
+| ORDER BY | sortowanie |
+| WHERE | określenie warunku wyboru |
+| BETWEEN x AND y | warunkuje whybór wartości między x i y |
+| LIKE '.' | wartości zawierające '.' |
+| % | dowolna ilość znaków |
+| _ | jeden dowolny znak |
+| SELECT GETDATE() | wybiera rekordy z daty |
+| SELECT UPPER() | zamienia litery na wielkie |
+| SELECT LOWER() | zamienia litery na małe |
+| SELECTDATEDIFF() | róznica między dwoma datami, w podanych jednostkach |
+| SELECT COUNT() | wylicza wiersze |
+| SELECT SUM() | sumuje wartości |
+| SELECT MIN() | podaje wartość minimalną |
+| SELECT MAX() | podaje wartość maksymalną |
+| GROUP BY | grupowanie |
+| JOIN .. ON .. | łączenie tabel |
+| FROM tabela AS | możliwość zmiany aliasu tabeli |
 
-NULL to nie 0, to brak wartości.
+!NULL to nie 0, to brak wartości.!
 
-![](https://files.codingninjas.in/article_images/null-values-1-1638899345.webp)
-
-
+## Subtask 3
 
 
+1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+2. Wyświetl film, który powstał w 2019 roku.
+3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+9. Wyświetl dane klienta, który nie ma podanego adresu email.
+10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
