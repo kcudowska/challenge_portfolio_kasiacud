@@ -201,62 +201,133 @@ Dodatkową funkcjonalnością mogłaby być opcja dodawania komemntarzy i zdję�
 
 *1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.*
 
-select * from actors order by surname ASC
+select *
+from actors
+order by surname ASC
 
 ![1](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/81298d61-d100-4043-a1c7-c6bfa1872f25)
 
 *2. Wyświetl film, który powstał w 2019 roku.*
 
-select title from movies where year_of_production = 2019
+select title
+from movies
+where year_of_production = 2019
 
 ![2](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/c22c9bb1-fac3-4ec9-bd3a-31ee8e9b1331)
 
 *3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.*
 
-select * from movies where year_of_production between 1990 and 1999
+select *
+from movies
+where year_of_production between 1990 and 1999
 
 ![3](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/fc5d85a3-be9c-42ee-9ecf-6d8fcdf62e17)
 
 *4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$*
 
-select title, price from movies where price <7
+select title, price
+from movies
+where price <7
 
 ![4](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/da08e9d9-681b-4d68-95eb-69e434540149)
 
 *5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
 
-select * from actors where actor_id >=4 and actor_id <=7
+select *
+from actors
+where actor_id >=4 and actor_id <=7
 
 ![5](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/1f5e5267-7400-4982-9633-3f89f0fbef1b)
 
 *6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.*
 
-select * from customers where customer_id = 2 or customer_id = 4 or customer_id = 6
+select *
+from customers
+where customer_id = 2 or customer_id = 4 or customer_id = 6
 
 ![6](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/5beab79b-2b16-485d-a26b-27fce510bfa5)
 
 *7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.*
 
-select * from customers where customer_id IN (1,3,5)
+select *
+from customers
+where customer_id IN (1,3,5)
 
 ![7](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/dd0e0913-e927-4bb7-902f-cf5e9d168963)
 
 *8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.*
 
-select * from actors where name like 'An%'
+select *
+from actors
+where name like 'An%'
 
 ![8](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/ce20d30c-fd0b-4edf-ae22-cfd158e69bfd)
 
 *9. Wyświetl dane klienta, który nie ma podanego adresu email.*
 
-select * from customers where email is null
+select *
+from customers
+where email is null
 
 ![9](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/df29dab7-f47b-45cd-bc7a-0af84228a8e9)
 
 *10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.*
 
-SELECT * FROM movies WHERE price >9 and movie_id between 2 and 8
+SELECT *
+FROM movies
+WHERE price >9 and movie_id between 2 and 8
 
 ![10](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/86145698-584a-4fef-817a-b9ae38ba6c1a)
 
+
+# Task 6
+
+## Subtask 1
+
+*11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈*
+
+UPDATE customers
+SET surname='Miler'
+WHERE name='Ania'
+
+![11](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/26dba59a-f879-4d43-8d1c-a7b5ea89fb68)
+
+*12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.*
+
+SELECT customers.name, customers.email, sale.movie_id
+from customers
+inner join sale on customers.customer_id=sale.customer_id
+where sale.movie_id=4
+
+![12](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/c990d1ff-adf3-488c-b740-39957c46e9f5)
+
+*13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com*
+
+UPDATE customers
+SET email='pati@mail.com'
+WHERE name='Patrycja' and email is null
+
+![13](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/b6e41dce-f4b4-47e7-ab3c-27405fba140e)
+
+*14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).*
+
+
+*15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag*
+
+ALTER TABLE customer ADD COLUMN pseudonym 
+
+
+*16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.*
+
+
+*17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)*
+
+
+*18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).*
+
+
+*19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał*
+
+
+*20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa*
 
