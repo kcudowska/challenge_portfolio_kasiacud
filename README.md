@@ -320,8 +320,13 @@ inner join movies on sale.movie_id=movies.movie_id)
 
 *15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag*
 
-ALTER TABLE customer ADD COLUMN pseudonym 
+ALTER TABLE customers ADD COLUMN pseudonym varchar(200)
 
+![15 1](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/426619f0-e167-4cb9-8f1c-762f25b5b2d8)
+
+update customers set pseudonym = concat(left(customers.name,2),right(customers.surname,1))
+
+![15 2](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/8ebe1a48-45b2-4e8e-be43-ca766a706565)
 
 *16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.*
 
