@@ -308,8 +308,8 @@ WHERE price > 9 AND movie_id BETWEEN 2 AND 8
 
 ```
 UPDATE customers
-SET surname='Miler'
-WHERE name='Ania'
+SET surname = 'Miler'
+WHERE name = 'Ania'
 ```
 
 ![11](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/26dba59a-f879-4d43-8d1c-a7b5ea89fb68)
@@ -319,8 +319,8 @@ WHERE name='Ania'
 ```
 SELECT customers.name, customers.email, sale.movie_id
 FROM customers
-INNER JOIN sale ON customers.customer_id=sale.customer_id
-WHERE sale.movie_id=4
+INNER JOIN sale ON customers.customer_id = sale.customer_id
+WHERE sale.movie_id = 4
 ```
 
 ![12](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/c990d1ff-adf3-488c-b740-39957c46e9f5)
@@ -329,8 +329,8 @@ WHERE sale.movie_id=4
 
 ```
 UPDATE customers
-SET email='pati@mail.com'
-WHERE name='Patrycja' and email is null
+SET email = 'pati@mail.com'
+WHERE name = 'Patrycja' AND email IS NULL
 ```
 
 ![13](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/b6e41dce-f4b4-47e7-ab3c-27405fba140e)
@@ -340,8 +340,8 @@ WHERE name='Patrycja' and email is null
 ```
 SELECT customers.name, customers.surname, movies.title
 FROM ((sale
-INNER JOIN customers ON sale.customer_id=customers.customer_id)
-INNER JOIN movies ON sale.movie_id=movies.movie_id)
+INNER JOIN customers ON sale.customer_id = customers.customer_id)
+INNER JOIN movies ON sale.movie_id = movies.movie_id)
 ```
 
 ![14](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/de75edb2-d44f-40f4-afb3-fb0ec533010b)
@@ -367,7 +367,7 @@ SET pseudonym = concat(left(customers.name,2),right(customers.surname,1))
 ```
 SELECT movies.title, sale.movie_id
 FROM movies
-JOIN sale ON movies.movie_id=sale.movie_id
+JOIN sale ON movies.movie_id = sale.movie_id
 GROUP BY movies.title
 ```
 
@@ -388,7 +388,7 @@ ORDER BY name ASC
 
 ```
 UPDATE movies
-SET price=price+2.5
+SET price = price+2.5
 WHERE year_of_production >= 2000
 ```
 
@@ -399,9 +399,9 @@ WHERE year_of_production >= 2000
 ```
 SELECT actors.name, actors.surname, movies.title, actors.actor_id
 FROM actors
-JOIN cast ON actors.actor_id=cast.actor_id
-JOIN movies ON cast.movie_id=movies.movie_id
-WHERE actors.actor_id=4
+JOIN cast ON actors.actor_id = cast.actor_id
+JOIN movies ON cast.movie_id = movies.movie_id
+WHERE actors.actor_id = 4
 ```
 
 ![19](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/d9733b61-4046-4487-abdb-c227197be5f4)
