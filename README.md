@@ -330,15 +330,45 @@ update customers set pseudonym = concat(left(customers.name,2),right(customers.s
 
 *16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.*
 
+select movies.title, sale.movie_id
+from movies
+join sale on movies.movie_id=sale.movie_id
+group by movies.title
+
+![16](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/070a05d7-56a1-458c-a65c-698b3c21d6fb)
 
 *17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)*
 
+select name from actors
+UNION
+select name from customers
+order by name ASC
+
+![17](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/5fc095e3-5244-4764-b988-aaefe064ecf3)
 
 *18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).*
 
+update movies
+set price=price+2.5
+where year_of_production >= 2000
+
+![18](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/bb83abae-c726-4c06-925a-529d98502905)
 
 *19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał*
 
+select actors.name, actors.surname, movies.title, actors.actor_id
+from actors
+join cast on actors.actor_id=cast.actor_id
+join movies on cast.movie_id=movies.movie_id
+where actors.actor_id=4
+
+![19](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/d9733b61-4046-4487-abdb-c227197be5f4)
 
 *20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa*
+
+insert into customers
+values ('7', 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
+
+![20](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/a5978ed7-c74a-4a6e-b239-6d951191dd98)
+
 
