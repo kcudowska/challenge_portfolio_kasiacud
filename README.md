@@ -348,9 +348,11 @@ order by name ASC
 
 *18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).*
 
+'''
 update movies
 set price=price+2.5
 where year_of_production >= 2000
+'''
 
 ![18](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/bb83abae-c726-4c06-925a-529d98502905)
 
@@ -371,4 +373,6 @@ values ('7', 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 
 ![20](https://github.com/kcudowska/challenge_portfolio_kasiacud/assets/129653381/a5978ed7-c74a-4a6e-b239-6d951191dd98)
 
+## Subtask 2
 
+Test ecru ze strony http://getistqb.com/: wynik 12/15 ;)
